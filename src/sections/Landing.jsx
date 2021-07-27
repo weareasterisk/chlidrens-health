@@ -83,18 +83,18 @@ const Links = () => {
   return (
     <div>
       <FancyLinks>
-        <FancyLink href="https://architech-inc.typeform.com/to/iy8fcXVM" target="_blank" rel="noopener noreferrer" backgroundColor="#ED2939" id="apply">
+        {/* <FancyLink href="https://architech-inc.typeform.com/to/iy8fcXVM" target="_blank" rel="noopener noreferrer" backgroundColor="#ED2939" id="apply">
           Apply here!
-        </FancyLink>
+        </FancyLink> */}
         {/* <FillerDiv />
         <FancyLink href="https://architech-inc.typeform.com/to/Uyu5Ipsu" backgroundColor="#9C8DC3" id="mentor">
           Mentoring
         </FancyLink> */}
-        <FancyLink href="https://asterisk.events/site/childrens21" target="_blank" rel="noopener noreferrer" backgroundColor="#ffb819">
+        {/* <FancyLink href="https://asterisk.events/site/childrens21" target="_blank" rel="noopener noreferrer" backgroundColor="#ffb819">
           Live Site
-        </FancyLink>
+        </FancyLink> */}
         <FancyLink rel="noopener noreferrer" target="_blank" href="https://childrens21.devpost.com" backgroundColor="#62B4C5">
-          Devpost
+          Devpost - Winners and Submissions
         </FancyLink>
         {/* <FancyLink rel="noopener noreferrer" target="_blank" href="https://architech-inc.typeform.com/to/uYRkylb0" backgroundColor="#ffb819">Submit Your Idea!</FancyLink>
         <FancyLink rel="noopener noreferrer" target="_blank" href="https://architech-inc.typeform.com/to/pbKXtRgy" backgroundColor="#004a97">Submit to a Mini Challenge!</FancyLink> */}
@@ -132,6 +132,18 @@ const GoldSponsors = () => {
       <div>
         <img src={images["5daf0f8f2b639693bfe5d974_Allata_Color (1)"]} alt="Allata" style={{
           maxWidth: "250px",
+          paddingTop: "16px"
+        }} />
+      </div>
+      <div>
+        <img src={images["salesforce-logo (1)"]} alt="Salesforce" style={{
+          maxWidth: "150px",
+          paddingTop: "16px"
+        }} />
+      </div>
+      <div>
+        <img src={images["tytocare+logo"]} alt="Tytocare" style={{
+          maxWidth: "180px",
           paddingTop: "16px"
         }} />
       </div>

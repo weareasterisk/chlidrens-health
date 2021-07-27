@@ -246,6 +246,10 @@ export default {
     {
       imageSrc: images["5daf0f8f2b639693bfe5d974_Allata_Color (1)"],
       sponsorName: "Allata"
-    }
+    },
+    {
+      imageSrc: images["tytocare+logo"],
+      sponsorName: "Allata"
+    },
   ]
 }
